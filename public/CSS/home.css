@@ -6,73 +6,89 @@ body{
     font-family: Inter;
     font-size: 12px;
 }
-
 .top-bar-header{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    flex-wrap: nowrap;
     align-items: center;
-    /* justify-content: center; */
+    /* background-color: brown; */
 }
 
 #logo{
-    width:50%
-}
+    max-width:50%;
+    /* background-color: aqua; */
 
+}
+/* NavBAR */
 .navbar{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-/* #hamburgerMenu{
-    width: 20%;
-    background-color: blue;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    padding: 12px;
-    border-radius: 20%;
-    margin: 10px 0px;
-
-} */
-
-#menu_on{
-    display: inline-block;
-    width: 30%;
-    height: 20px;
-    position: relative;
-    z-index: 2;
-}
-
-#menu_on span{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* color: blue; */
     width: 100%;
-    height:4px;
-    border-radius: 4px;
-    display: block;
-    position: absolute;
-    background: black;
-    transition: all 0.25s ease;
-    transform-origin: 0px 100%;
+    /* background-color: aqua; */
+
 }
-
-#menu_on span:nth-child(2){
-	top: calc(50% - 2px);
-}
- 
-#menu_on span:nth-child(3){
-bottom: 0;
-}
-
-
-
-#menu{
-    position: fixed;
+.container-fluid{
+    padding: 10% 0% 10% 15%;
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 40px;
-    /* margin: 5px 0px; */
+    /* background-color: blue; */
+    justify-content: center;
+    /* flex-direction: column; */
+}
+.navbar-toggler{
+    display: flex;
+    width: 40%;
+    align-self: center;
 }
 
+/* Carousel */
+.bottom-bar-header{
+    display: flex;
+    justify-content: center;
+
+}
+#carouselExample{
+    width: 90%;
+    border: solid 10px blue;
+    border-radius: 10%;
+
+}
+
+/* About us */
+main{
+    background-color: brown;
+}
+.aboutUs{
+    background-color: blue;
+    padding: 10%;
+    margin: 3%;
+}
+.imgAboutUS img{
+    width: 100%;
+}
+
+/* Project Area */
+
+.projects{
+    background-color: blue;
+    padding: 10%;
+    margin: 3%;
+}
+
+/* Form and Description */
+.description{
+    background-color: blue;
+    padding: 10%;
+    margin: 3%;
+}
+
+/* social media buttons and Copyright */
+.social{
+    background-color: blue;
+    padding: 10%;
+    margin: 3%;
+}
