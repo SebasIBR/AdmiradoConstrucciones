@@ -86,6 +86,7 @@
         <section class="aboutUs">
             <!-- About us -->
             <div class="imgAboutUS">
+                <h6><strong>Quienes somos</strong></h6>
                 <img src="img/aboutUS.PNG" alt="about us">
             </div>
             <div>
@@ -102,8 +103,8 @@
         </section>
         <section class="projects">
             <!-- Project Area -->
-            <div class="textProjects">
-                <h6>
+            <div>
+                <h6 class="textProjects">
                     Te invitamos a visitar nuestros mas recientes proyectos
                 </h6>
             </div>
@@ -118,9 +119,7 @@
         <section class="description">
             <!-- Form and Description -->
             <div class="textContact">
-                <h6>
-                    Contactanos
-                </h6>
+                <h6><strong>Contactanos</strong></h6>
             </div>
             <div>
                 <h6 class="textDescription">
@@ -129,29 +128,27 @@
                     itaque doloremque assumenda!
                 </h6>
             </div>
-            <div class="formContact">
-                <form action="">
-                    <label for="">Nombre:</label>
+            <div class="formContactContainer">
+                <form action="" class="formContact">
+                    <label for=""><strong>Nombre:</strong></label>
                     <input type="text">
-                    <label for="">email:</label>
+                    <label for=""><strong>Email:</strong></label>
                     <input type="email">
-                    <label for="">Dejenos su comentario:</label>
+                    <label for=""><strong>Dejanos tu comentario</strong></label>
                     <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-                    <button type="submit">Enviar</button>
+                    <button class="formButton" type="submit">Enviar</button>
                 </form>
             </div>
         </section>
         <section class="social">
             <!-- social media buttons and Copyright  -->
-            <div>
-                <button></button>
-                <button></button>
-                <button></button>
-
+            <div class="buttonSocial">
+                <button><i class="fa-brands fa-square-facebook"></i></button>
+                <button><i class="fa-brands fa-instagram"></i></button>
+                <button><i class="fa-brands fa-whatsapp"></i></button>
             </div>
             <div>
-                <h6>@C. AdmiradoConstruciones2022</h6>
-
+                <h6 class="copyRight">@C.AdmiradoConstruciones2022</h6>
             </div>
 
         </section>
