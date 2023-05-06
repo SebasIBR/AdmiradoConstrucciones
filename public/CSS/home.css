@@ -17,36 +17,47 @@ body {
 
 #logo {
     max-width: 50%;
+    margin-top: 7%;
     /* background-color: aqua; */
 
 }
 
 /* NavBAR */
 .navbar {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
-    /* background-color: aqua; */
-
+    margin: 7% 0% 7% 0%;
 }
 
 .container-fluid {
-    padding: 10% 0% 10% 15%;
     width: 50%;
     display: flex;
-    /* background-color: blue; */
-    justify-content: center;
-    /* flex-direction: column; */
+    flex-wrap: nowrap;
+    align-self: center;
+    padding: 0px;
+    margin: 0px;
+    flex-direction: column;
+}
+
+.navbar-toggler-icon{
+    color: blue;
+    background-color: blue;
+    font-size: medium;
+
 }
 
 .navbar-toggler {
-    display: flex;
     width: 40%;
-    align-self: center;
+    align-items: center;
+    background-color: blue;
+    color: blue;
+}
+
+#navbarSupportedContent ul{
+    align-items: center;
+    margin-top: 12%;
 }
 
 /* Carousel */
@@ -62,14 +73,12 @@ body {
     border-radius: 2%;
     padding: 5%;
     box-shadow: 0px 0px 10px rgb(100, 100, 100)
-    
-
 }
 
 /* About us */
-main {
-    /* background-color: brown; */
-}
+/* main { */
+/* background-color: brown; */
+/* } */
 
 .aboutUs {
     /* background-color: blue; */
@@ -84,7 +93,7 @@ main {
     width: 100%;
 }
 
-.textAboutUs{
+.textAboutUs {
     margin-top: 5%;
     font-size: 12px;
 }
@@ -99,15 +108,18 @@ main {
     border-radius: 2%;
     box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
-.textProjects{
+
+.textProjects {
     font-size: 12px;
 }
-.buttonProjects{
+
+.buttonProjects {
     width: 100%;
     padding: 3%;
     border: solid 3px blue;
-    border-radius: 5%;
+    border-radius: 15px;
 }
+
 .buttonProjects a {
     text-decoration: none;
     color: black;
@@ -122,51 +134,67 @@ main {
     border-radius: 2%;
     box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
-.textDescription{
+
+.textDescription {
     font-size: 12px;
 }
-.formContact{
+
+.formContact {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
 }
-.formButton{
+
+.formButton {
     margin-top: 5%;
     width: 100%;
     padding: 3%;
     border: solid 3px blue;
-    border-radius: 5%;
+    border-radius: 15px;
 }
+
 /* social media buttons and Copyright */
 .social {
-    /* background-color: blue; */
-    /* display:flex; */
-    /* flex-wrap: nowrap; */
-    /* flex-direction: column; */
-    padding: 10% 10% 0% 10%;
-    margin: 3%;
+    background-color: blue;
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-top: 2%;
+    /* margin: 3%; */
     border: solid 10px transparent;
-    border-radius: 2%;
+    border-radius: 10% 10% 0% 0%;
     align-items: center;
     justify-content: space-around;
-
-    box-shadow: 0px 0px 10px rgb(100, 100, 100)  
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
-.buttonSocial{
-    /* padding: 5%; */
-    margin-bottom: 5%;
-    /* width: auto; */
+
+.buttonSocial {
+    /* padding: 15%; */
+    margin-bottom: 7%;
+    width: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
-.buttonSocial button{
-    width: 90%;
+
+.buttonSocial button {
+    max-width: 100%;
+    padding: 5%;
+    height: auto;
     margin: 0% 5% 0% 5%;
     border: none;
-    background-color: white;
+    background-color: blue;
+
 
 }
-.copyRight{
-    font-size: 12px;
+
+.buttonSocial button i {
+    font-size: xx-large;
+    color: white;
+}
+
+.copyRight {
+    font-size: 15px;
     text-align: center;
+    color: white;
 }
