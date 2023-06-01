@@ -41,7 +41,7 @@ body {
     flex-direction: column;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     color: white;
     background-color: white;
     font-size: medium;
@@ -55,78 +55,33 @@ body {
     color: white;
 }
 
-#navbarSupportedContent ul{
+#navbarSupportedContent ul {
     align-items: center;
     margin-top: 12%;
 }
 
-/* Carousel */
-.bottom-bar-header {
-    display: flex;
-    justify-content: center;
-
-}
-
-#carouselExample {
-    width: 95%;
-    border: solid 10px transparent;
-    border-radius: 2%;
-    padding: 5%;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100)
-}
-
-/* About us */
-/* main { */
-/* background-color: brown; */
-/* } */
-
-.aboutUs {
-    /* background-color: blue; */
-    padding: 10%;
-    margin: 3%;
-    border: solid 10px transparent;
-    border-radius: 2%;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100)
-}
-
-.imgAboutUS img {
-    width: 100%;
-}
-
-.textAboutUs {
-    margin-top: 5%;
-    font-size: 12px;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-/* Project Area */
-
+/* Proyects Buttons */
 .projects {
-    /* background-color: blue; */
-    padding: 10%;
+    /* background-color: aqua; */
+    /* padding: 10%; */
     margin: 3%;
     border: solid 10px transparent;
     border-radius: 2%;
     box-shadow: 0px 0px 10px rgb(100, 100, 100)
 }
 
-.textProjects {
-    font-size: 12px;
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-.buttonProjects {
+.card-header{
     width: 100%;
-    padding: 3%;
-    border: solid 3px blue;
-    border-radius: 15px;
+    text-align: center;
+    align-self: center;  
 }
 
-.buttonProjects a {
-    text-decoration: none;
-    color: black;
+.card-header a{
+    width: 100%;
+}
+
+.imgAccordionContainer img{
+    width: 100%;
 }
 
 /* Form and Description */
@@ -162,7 +117,7 @@ body {
 /* social media buttons and Copyright */
 .social {
     background-color: white;
-    display:flex;
+    display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     padding-top: 2%;

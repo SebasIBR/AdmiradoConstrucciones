@@ -6,8 +6,8 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, 'views/home.html'))
 })
 
-app.get("/projects", (req, res) => {
-    res.send("pagina proyectos")
+app.get("/proyectos", (req, res) => {
+    res.sendFile(path.join(__dirname, 'views/projects.html'))
 })
 
 app.use(express.static(path.resolve(__dirname, "public")))
